@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EntityFrameworkDataBaseStoreContainer" CdmEntityContainer="gfdEntities">
+    <EntitySetMapping Name="DC2">
+      <EntityTypeMapping TypeName="EntityFrameworkDataBase.DC2">
+        <MappingFragment StoreEntitySet="DC2">
+          <ScalarProperty Name="IdSprzetu" ColumnName="IdSprzetu" />
+          <ScalarProperty Name="Nazwa" ColumnName="Nazwa" />
+          <ScalarProperty Name="Marka" ColumnName="Marka" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="SerialNumber" ColumnName="SerialNumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
